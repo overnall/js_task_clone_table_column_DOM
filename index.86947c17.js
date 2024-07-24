@@ -1,0 +1,2 @@
+for(var e=document.querySelectorAll("td"),l=[],t=1;t<e.length;t+=5)l.push(e[t]);var r=document.querySelectorAll("th")[3],o=document.querySelectorAll("th")[1].cloneNode(!0);r.after(o);for(var c=0,u=4;u<document.querySelectorAll("td").length;u+=6){var d=document.querySelectorAll("td")[u],n=l[c].cloneNode(!0);d.before(n),c++}var a=document.querySelectorAll("th")[9],h=document.querySelectorAll("th")[7].cloneNode(!0);a.after(h);
+//# sourceMappingURL=index.86947c17.js.map
